@@ -18,9 +18,6 @@ A simple Slack bot built with Node.js, Slack Bolt, and Socket Mode.
 | Command   | Description                    |
 | --------- | ------------------------------ |
 | `/ping`   | Check bot latency              |
-| `/help`   | Show available commands        |
-| `/status` | Check bot status               |
-| `/about`  | Show information about the bot |
 | `/owner`  | Show bot owner                 |
 | `/cat`    | Send a random cat image        |
 | `/dog`    | Send a random dog image        |
