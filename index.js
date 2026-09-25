@@ -166,7 +166,7 @@ app.command("/joke", async ({ ack, respond }) => {
     });
   }
 });
-// Start bot
+//start bot
 (async () => {
   console.log("Starting bot...");
 
