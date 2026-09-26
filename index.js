@@ -10,7 +10,7 @@ const app = new App({
   socketMode: true
 });
 //ping
-app.command("/ping", async ({ ack, respond }) => {
+app.command("/akashsuu-ping", async ({ ack, respond }) => {
   const start = Date.now();
 
   await ack();
@@ -23,25 +23,25 @@ app.command("/ping", async ({ ack, respond }) => {
 });
 
 //help
-app.command("/help", async ({ ack, respond }) => {
+app.command("/akashsuu-help", async ({ ack, respond }) => {
   await ack();
 
   await respond({
     text:
       `*Available Commands*\n\n` +
-      `\`/ping\` - Check bot latency\n` +
-      `\`/status\` - Check bot status\n` +
-      `\`/about\` - About the bot\n` +
-      `\`/help\` - Show this help message\n` +
-      `\`/owner\` - Display owner name\n` +
-      `\`/joke\` - Tell a joke\n` +
-      `\`/cat\` - Send a cute cat image\n` +
-      `\`/dog\` - Send a cute dog image`
+      `\`/akashsuu-ping\` - Check bot latency\n` +
+      `\`/akashsuu-status\` - Check bot status\n` +
+      `\`/akashsuu-about\` - About the bot\n` +
+      `\`/akashsuu-help\` - Show this help message\n` +
+      `\`/akashsuu-owner\` - Display owner name\n` +
+      `\`/akashsuu-joke\` - Tell a joke\n` +
+      `\`/akashsuu-cat\` - Send a cute cat image\n` +
+      `\`/akashsuu-dog\` - Send a cute dog image`
   });
 });
 
 //status
-app.command("/status", async ({ ack, respond }) => {
+app.command("/akashsuu-status", async ({ ack, respond }) => {
   await ack();
 
   await respond({
@@ -50,7 +50,7 @@ app.command("/status", async ({ ack, respond }) => {
 });
 
 //about
-app.command("/about", async ({ ack, respond }) => {
+app.command("/akashsuu-about", async ({ ack, respond }) => {
   await ack();
 
   await respond({
@@ -63,7 +63,7 @@ app.command("/about", async ({ ack, respond }) => {
 });
 
 //owner
-app.command("/owner", async ({ ack, respond }) => {
+app.command("/akashsuu-owner", async ({ ack, respond }) => {
   await ack();
 
   await respond({
@@ -72,7 +72,7 @@ app.command("/owner", async ({ ack, respond }) => {
 });
 
 // cute cat
-app.command("/cat", async ({ ack, respond }) => {
+app.command("/akashsuu-cat", async ({ ack, respond }) => {
   await ack();
 
   try {
@@ -108,7 +108,7 @@ app.command("/cat", async ({ ack, respond }) => {
   }
 });
 //cute dog
-app.command("/dog", async ({ ack, respond }) => {
+app.command("/akashsuu-dog", async ({ ack, respond }) => {
   await ack();
 
   try {
@@ -144,7 +144,7 @@ app.command("/dog", async ({ ack, respond }) => {
   }
 });
 //give joke
-app.command("/joke", async ({ ack, respond }) => {
+app.command("/akashsuu-joke", async ({ ack, respond }) => {
   await ack();
 
   try {
