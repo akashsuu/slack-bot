@@ -17,11 +17,11 @@ A simple Slack bot built with Node.js, Slack Bolt, and Socket Mode.
 
 | Command   | Description                    |
 | --------- | ------------------------------ |
-| `/ping`   | Check bot latency              |
-| `/owner`  | Show bot owner                 |
-| `/cat`    | Send a random cat image        |
-| `/dog`    | Send a random dog image        |
-| `/joke`   | Send a random joke             |
+| `/akashsuu-ping`   | Check bot latency              |
+| `/akashsuu-owner`  | Show bot owner                 |
+| `/akashsuu-cat`    | Send a random cat image        |
+| `/akashsuu-dog`    | Send a random dog image        |
+| `/akashsuu-joke`   | Send a random joke             |
 
 
 
